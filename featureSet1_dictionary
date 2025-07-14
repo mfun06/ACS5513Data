@@ -1,0 +1,14 @@
+| Column Name         | Type         | Null?    | Description                                                |
+|---------------------|--------------|----------|------------------------------------------------------------|
+| Name                | varchar(100) | NOT NULL | Name of the video game                                     |
+| Platform            | varchar(20)  | NOT NULL | Game platform abbreviation (e.g., PS4, X360)               |
+| Year                | int          | NOT NULL | Release year of the game                                   |
+| Genre               | varchar(30)  | NOT NULL | Genre category (e.g., Action, Sports)                      |
+| Publisher           | varchar(100) | NOT NULL | Game publisher (filled with 'Unknown' if originally null) |
+| NA_Sales            | float        | NOT NULL | Sales in North America (millions)                          |
+| EU_Sales            | float        | NOT NULL | Sales in Europe (millions)                                 |
+| JP_Sales            | float        | NOT NULL | Sales in Japan (millions)                                  |
+| Other_Sales         | float        | NOT NULL | Sales in other regions (millions)                          |
+| Global_Sales        | float        | NOT NULL | Total worldwide sales (millions)                           |
+| Genre_<type>        | int          | NOT NULL | One-hot encoded column for genre category                  |
+| Platform_<type>     | int          | NOT NULL | One-hot encoded column for platform                        |
