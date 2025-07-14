@@ -1,0 +1,12 @@
+| Column Name          | Type         | Null?    | Description                                                         |
+|----------------------|--------------|----------|---------------------------------------------------------------------|
+| Game Title           | varchar(100) | NOT NULL | Title of the game                                                   |
+| Units Sold (millions)| float        | NOT NULL | Copies sold globally in millions                                    |
+| Series               | varchar(50)  | NULL     | Game series title if applicable                                     |
+| Platform             | varchar(50)  | NOT NULL | Platform(s) the game was released on                                |
+| Initial release date | varchar(30)  | NOT NULL | Release date in string format (pre-parsed)                          |
+| Developer(s)         | varchar(100) | NULL     | Game developer(s)                                                   |
+| Publisher(s)         | varchar(100) | NULL     | Publisher(s) of the game                                            |
+| Franchise_Flag       | int          | NOT NULL | 1 if the game is part of a series, 0 otherwise                      |
+| Platform_Group       | varchar(10)  | NOT NULL | Simplified platform category: PC, MULTI, or CONSOLE                 |
+| Years_Since_Release  | int          | NULL     | Years since the game was released (based on parsed release date)    |
