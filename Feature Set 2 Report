@@ -1,0 +1,9 @@
+Feature Set 2 
+
+Features Created
+Franchise_Flag: Whether the game belongs to a known series
+Platform_Group: Aggregated category from Platform(s) (PC, CONSOLE, MULTI)
+Years_Since_Release: Years since initial release (based on date parsing)
+
+Purpose
+To assess influence of longevity, multiplatform reach, and IP continuity on sales performance.
