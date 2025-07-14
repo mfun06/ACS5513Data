@@ -1,0 +1,9 @@
+| Column Name      | Type         | Null?    | Description                                |
+| ---------------- | ------------ | -------- | ------------------------------------------ |
+| Game             | varchar(100) | NOT NULL | Lowercase name of the game                 |
+| Units\_Sold      | float        | NOT NULL | Units sold globally (in millions)          |
+| Platform         | varchar(30)  | NOT NULL | Uppercased platform (e.g., MULTI-PLATFORM) |
+| Publisher        | varchar(100) | NOT NULL | Publisher name (or 'Unknown')              |
+| Developer        | varchar(100) | NOT NULL | Developer name (or 'Unknown')              |
+| Series           | varchar(100) | NULL     | Game series/franchise, if applicable       |
+| Initial\_Release | varchar(30)  | NULL     | Original release date (as string)          |
