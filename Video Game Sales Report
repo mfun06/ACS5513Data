@@ -1,0 +1,24 @@
+Dataset 1  Video Game Sales 
+
+General Summary
+This dataset, originally from Kaggle, contains video game sales data from a wide range of platforms and publishers. It tracks game names, genres, platforms, years of release, and regional/global sales (in millions of units).
+
+Data Quality Summary
+The raw dataset had some missing values particularly in the Publisher, Year, and Genre columns. Additionally, platform names were inconsistent in formatting (e.g., upper vs. lowercase).
+
+Target Variable
+For analysis, Global_Sales was treated as the target variable, representing total sales in millions worldwide.
+
+Individual Variables
+Game: Title of the video game
+Platform: Console/medium where the game was released
+Year: Year of release
+Genre: Category of game
+Publisher: Publishing company
+Regional Sales: NA_Sales, EU_Sales, JP_Sales, Other_Sales
+
+Variable Ranking
+Highly correlated variables with Global_Sales: NA_Sales > EU_Sales > JP_Sales > Other_Sales.
+
+Explanatory Relationships
+Sales data show regional trends certain genres/platforms perform differently by geography. Years and publishers show moderate influence.
