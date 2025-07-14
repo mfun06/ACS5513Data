@@ -1,0 +1,10 @@
+Feature Set 1 
+
+Features Created
+Era: Decade derived from year (e.g., '90s)
+Total_Regional_Sales: Combined sum of NA, EU, JP, and Other sales
+Franchise_Flag: 1 if the game appears multiple times in the dataset (proxy for franchise)
+One hot encoding on Genre and Platform
+
+Purpose
+To enhance sales prediction and trend discovery by accounting for time, regional performance, and categorical influence.
