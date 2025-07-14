@@ -1,0 +1,11 @@
+Dataset 2  Top Grossing Games
+
+Processing Summary
+Removed rows missing Platform or Units Sold
+Cleaned Units Sold to convert string to float
+Trimmed bracketed text from Initial release date
+Extracted numeric release years
+Converted column names to consistent format
+
+Impact of Processing
+Improved consistency allowed easier feature extraction and cross comparison with Dataset 1. Time and franchise based trends became easier to analyze.
