@@ -1,0 +1,22 @@
+Dataset 1  Video Game Sales 
+
+Processing Summary
+The cleaned dataset:
+Removed rows missing Genre or Year
+Filled missing Publisher with "Unknown"
+Added new Era column by binning Year into release decades (e.g., '80s, '90s)
+Converted all platform strings to lowercase and standardized categories
+
+Impact of Processing
+The dataset became fully numeric where needed, ready for model training. Platform consistency improved grouping. Genre null values were removed to ensure category integrity.
+
+Feature Set 1  Based on Video Game Sales
+
+Features Created
+Era: Decade derived from year (e.g., '90s)
+Total_Regional_Sales: Combined sum of NA, EU, JP, and Other sales
+Franchise_Flag: 1 if the game appears multiple times in the dataset (proxy for franchise)
+One hot encoding on Genre and Platform
+
+Purpose
+To enhance sales prediction and trend discovery by accounting for time, regional performance, and categorical influence.
