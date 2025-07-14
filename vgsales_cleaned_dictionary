@@ -1,0 +1,14 @@
+| Column Name            | Type         | Null?    | Description                                    |
+| ---------------------- | ------------ | -------- | ---------------------------------------------- |
+| Game                   | varchar(100) | NOT NULL | Lowercase name of the video game               |
+| Platform               | varchar(20)  | NOT NULL | Standardized console/platform abbreviation     |
+| Year                   | int          | NOT NULL | Year the game was released                     |
+| Genre                  | varchar(30)  | NOT NULL | Genre or category of the game                  |
+| Publisher              | varchar(100) | NOT NULL | Game publisher (filled with 'Unknown' if null) |
+| NA\_Sales              | float        | NOT NULL | Sales in North America (millions)              |
+| EU\_Sales              | float        | NOT NULL | Sales in Europe (millions)                     |
+| JP\_Sales              | float        | NOT NULL | Sales in Japan (millions)                      |
+| Other\_Sales           | float        | NOT NULL | Sales in other regions (millions)              |
+| Global\_Sales          | float        | NOT NULL | Total worldwide sales (millions)               |
+| Total\_Regional\_Sales | float        | NOT NULL | Sum of NA, EU, JP, Other sales                 |
+| Era                    | varchar(4)   | NOT NULL | Release decade (e.g., '80s', '90s', etc.)      |
