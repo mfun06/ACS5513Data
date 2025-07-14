@@ -1,0 +1,20 @@
+Dataset 2  Top Grossing Games 
+
+General Summary
+This dataset includes the top selling games globally with additional metadata such as platform(s), series, developer, and initial release date. It contains historical sales performance and some descriptive text.
+
+Data Quality Summary
+Original data had formatting inconsistencies (e.g., currency symbols, citations in date strings). Null values were present in Platform and Units Sold columns.
+
+Target Variable
+We assumed Units Sold (millions) to be the main target variable.
+
+Individual Variables
+Game Title, Series, Platform(s), Initial release date, Developer, Publisher
+Units Sold (millions) as numeric target
+
+Variable Ranking
+Preliminary analysis suggested platform and series association contributed to high unit sales.
+
+Explanatory Relationships
+Games released across multiple platforms or part of a franchise had stronger sales. Some developers consistently appeared among top titles.
