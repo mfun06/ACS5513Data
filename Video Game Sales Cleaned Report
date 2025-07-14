@@ -1,0 +1,11 @@
+Dataset 1  Video Game Sales 
+
+Processing Summary
+The cleaned dataset:
+Removed rows missing Genre or Year
+Filled missing Publisher with "Unknown"
+Added new Era column by binning Year into release decades (e.g., '80s, '90s)
+Converted all platform strings to lowercase and standardized categories
+
+Impact of Processing
+The dataset became fully numeric where needed, ready for model training. Platform consistency improved grouping. Genre null values were removed to ensure category integrity.
